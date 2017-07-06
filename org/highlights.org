@@ -1,0 +1,10 @@
+#+options: toc:nil
+#+attr_latex: :environment compactitem
+- We believe any material fixes to the social security are unlikely
+  to come prior to the next Presidential cycle, should it be either
+  through constitutional amendment or any other alternative.
+- Our scenario factors in a mild recovery and amid low
+  inflation. Fiscal risks, however, are likely to increase amid
+  political paralysis and the approaching presidential election.
+- Hopefully, the global background remains benign thus helping the
+  country to navigate these troubled waters until 2019.
