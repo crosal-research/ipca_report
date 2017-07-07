@@ -2,178 +2,37 @@
 
 #+BEGIN_EXPORT latex
 \thispagestyle{firstpagestyle}
-\IssueTitle{IPCA Report}
-\NewsAuthor{João Mauricio Rosal, \small\it Chief Economist, PhD}
+\IssueTitle{CPI Report}
+\NewsAuthor{Joao Mauricio Rosal, \small\it Chief Economist, PhD}
 \NewsEmail{joao.rosal@bgcpartners.com}
 \JournalIssue
     \begin{tcolorbox}[colbak=red!5!white, colframe=red!0!white]
       \NewsItem{Key Takeaways}
-     \it{ \import{latex/}{highlights}}
+     \it{\import{latex/}{highlights}}
     \end{tcolorbox}
 \vspace{-0.5cm}
 #+END_EXPORT
 
-#+include: "./html/salutation.html" export htm
-
-#+include:"./html/highlights.html" export html
-
 * IPCA Report
 
 #+LATEX:\rowcolors{2}{grey!15}{white}
-#+INCLUDE: "./org/forecasts.org"
-#+caption: Main Forecasts
+#+INCLUDE: "./org/results.org"
+#+caption: Main Figures CPI Figures - June 2017
 
-Amid this local Background, the global outlook persists on a positive
-mode. Europe - believe it or not, has turned into to being the new
-darling of the market, as it is growing at a consistent and robust
-pace. In fact, the market is already eyeing the ECB's unwinding of its
-QE and some monetary tightening down the line, something unheard of at
-the turn of the year.
 
-As for the US, the latest numbers have been a bit on the soft
-side. Despite that, the long-term treasury has gone up in last couple
-of weeks, while the VIX has persisted stubbornly close to its
-historical lows. Meanwhile, the Fed has raised its baseline rate by
-25pbs, as largely anticipated by the market, while also laying out its
-plan to shrink its balance sheet effective immediately. The market
-wasn't bothered too much about it all.
+*COMMENTS*
 
-In sum, the major mature economies are growing at consistent pace, so
-much so that Central Bank's therein are gradually shifting
-gears. Despite that, the market seems reassured by the idea that
-monetary tightening ought to be gradual, since lower productivity
-growth should continue to keep long-term rates at low levels by
-historical standards. This outlook persisting, it should help the
-country to navigate these trouble waters.
+
+
 
 #+include: "./html/salutation.html" export html
 
-#+BEGIN_EXPORT latex
-\newpage
-#+END_EXPORT
-
-
-* Global Economy
-
-#+BEGIN_QUOTE
-US and EU are facing similar challenges: economic expansion at full
-potential and stubbornly low inflation. Monetary policy is certainly
-in order, but pace should remain mild.
-#+END_QUOTE
-
-The US activity figures came in a bit on the soft side as of late.
-However, the view that it is operating at full potential remain
-intact. In fact, despite the weak batch of data, the yield of ten
-years Treasury has gone up and is back gain above the
-2.30%. Meanwhile, volatility has remained at close to historical lows.
-
-#+BEGIN_EXPORT latex
-  \begin{figure}[h]\centering
-  \subfloat[#]{\label{fig:10T}
-  \includegraphics[width=7.5cm]{./images/10Years.png}
-  }
-  \subfloat[#]{\label{fig:vix}
-  \includegraphics[width=7.5cm]{./images/Vix.png}
-  }
-  \caption{\footnotesize{source: Federal Reserve}}
-  \end{figure}
-#+END_EXPORT
-
-On the momentary policy, the Fed decided to raise the Fed Funds by
-25bps to xx, as largely anticipated by the market. More importantly
-perhaps, it has disclosed its plan to unwind its balance. In a
-nutshell, should market conditions allows, it will gradually increase
-its amortization payment it receives, net of rollovers, from
-Treasuries and mortgage-backed securities up to a monthly of USR50bn
-in 12 months time. Following this policy, it expects to lower the
-excess reserves liability its holding, albeit at levels about crisis
-one.
-
-Across the Atlantic, the EU continues to show signs of growth
-resilience, by and large as product of the ECB QE. As matter of fact,
-growth has been widespread,...
-
-Similar to the Fed, the ECB is facing the puzzle of facing an economy
-expanding at its full potential, and, at the observing inflation
-stubbornly. Hypotheses abound, however, none of these Central Banks
-seem to have a clear answer as of when this divergence is like to
-disappear.
-
-#+BEGIN_EXPORT latex
-  \begin{figure}[h]\centering
-  \subfloat[#]{\label{fig:10T}
-  \includegraphics[width=7.5cm]{./images/cli.png}
-  }
-  \subfloat[#]{\label{fig:vix}
-  \includegraphics[width=7.5cm]{./images/cpi_eu_us.png}
-  }
-  \caption{\footnotesize{source: Federal Reserve}}
-  \end{figure}
-#+END_EXPORT
-
-In face of this benign global backdrop, the main fear on our radar
-screen is the political risk in US combined with extremely low risk
-aversion. Taken together, they raise worries of possible tail
-events, should the market decide to turn sour because of the any
-meaningful political setbacks in the US.
-
-
-* Brazil
-
-#+BEGIN_QUOTE
-In short-term, the crisis is likely to have augmented deflating
-drivers. However, amid political paralysis and and waning reform hopes,
-this should provide little extra leeway to monetary policy.
-#+END_QUOTE
-
-The latest patch of data wasn't bad. By and large activity numbers' of
-April were pointing northward and, as underscored by the Central
-Bank's Ibc-br, overall activity expanded in the month. Moreover,
-industrial production of May has inaugurated the month expanding yxy%.
-
-In the meantime, inflation in May yet again came in quite low by
-historical measures, regardless of energy related one-timers. However,
-the main question persists: How much is the economic crisis likely to
-nhave deffer the economic recovery?
-
-#+BEGIN_EXPORT latex
-  \begin{figure}[h]\centering
-  \subfloat[#]{\label{fig:cdi10}
-  \includegraphics[width=7.5cm]{./images/cdi10years.png}
-  }
-  \subfloat[#]{\label{fig:tt}
-  \includegraphics[width=7.5cm]{./images/terms_of_trade.png}
-  }
-  \caption{\footnotesize{source: Federal Reserve}}
-  \end{figure}
-#+END_EXPORT
-
-Based on confidence gauges, the crisis is already abating activity,
-something that should become more clear as June's data start to come
-out. Importantly, once this weakness is confirmed, it is undoubted
-that deflating forces will persist longer, provided everything else is
-the same.
-
-As matter of fact, the Central Bank itself has acknowledged that the
-ongoing crisis may have a deflationary impact, although warning the
-risks over the neutral interest rate. Therefore, the net impact on
-interest rates is left to be since.
-
-Ourselves, we believe that everything else the same, the Selic rate
-should reach 8.00% by year-end, where it should stand for the whole
-2018E. Cutting a long story short, the crisis has hindered the neutral
-rate, as thus entailing large rates by the end of the cycle. However,
-the fiscal risks implies that upside risk to this call should not be
-dismissed.
-
-** Fiscal policy and Politics: risks to fiscal consolidation
 
 
 
 #+BEGIN_EXPORT latex
 \newpage
 #+END_EXPORT
-
 
 * Disclaimer
 [[http://www.bgcpartners.com]] \\

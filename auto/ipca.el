@@ -1,10 +1,8 @@
 (TeX-add-style-hook
- "highlights"
+ "ipca"
  (lambda ()
-   (TeX-add-to-alist 'LaTeX-provided-class-options
-                     '(("article" "11pt")))
    (TeX-add-to-alist 'LaTeX-provided-package-options
-                     '(("inputenc" "utf8") ("fontenc" "T1") ("ulem" "normalem")))
+                     '(("fontenc" "T1") ("ulem" "normalem") ("xcolor" "table") ("standalone" "subpreambles=true") ("hyperref" "linktocpage=true") ("babel" "portuguese" "english") ("inputenc" "latin1" "utf8")))
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
@@ -14,8 +12,8 @@
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (TeX-run-style-hooks
     "latex2e"
-    "article"
-    "art11"
+    "report"
+    "rep10"
     "inputenc"
     "fontenc"
     "fixltx2e"
@@ -30,6 +28,23 @@
     "marvosym"
     "wasysym"
     "amssymb"
-    "hyperref"))
+    "hyperref"
+    "paralist"
+    "tcolorbox"
+    "xcolor"
+    "lipsum"
+    "caption"
+    "tabu"
+    "standalone"
+    "import"
+    "setspace"
+    "graphics"
+    "tocloft"
+    "minitoc"
+    "babel"
+    "subfig")
+   (LaTeX-add-labels
+    "sec-1"
+    "sec-2"))
  :latex)
 

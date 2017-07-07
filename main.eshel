@@ -1,7 +1,12 @@
 ######################################################################
 # pandoc pre-processin to produce the html
 ######################################################################
+
+# generate table
+python ./tables/table_results.py
+
+# conversation of data
 pandoc ./org/highlights.org -f org -t html -o ./html/highlights.html
 pandoc ./org/highlights.org -f org -t latex -o ./latex/highlights.tex
-pandoc ./org/forecasts.org -f org -t html -o ./html/forecasts.html
-
+pandoc ./latex/results.tex -f latex -t org -o ./org/results.org
+pandoc ./org/results.org -f org -t html -o ./html/results.html

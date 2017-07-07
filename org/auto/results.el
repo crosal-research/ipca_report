@@ -1,5 +1,5 @@
 (TeX-add-style-hook
- "highlights"
+ "results"
  (lambda ()
    (TeX-add-to-alist 'LaTeX-provided-class-options
                      '(("article" "11pt")))
