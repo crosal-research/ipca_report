@@ -13,15 +13,14 @@
 \vspace{-0.5cm}
 #+END_EXPORT
 
-* IPCA Report
+* CPI Report
 
 #+LATEX:\rowcolors{2}{grey!15}{white}
 #+INCLUDE: "./org/results.org"
 #+caption: Main Figures CPI Figures - June 2017
 
 
-*COMMENTS*
-
+*Comments*:
 
 
 

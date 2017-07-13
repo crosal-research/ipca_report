@@ -34,9 +34,8 @@ def gen_table(df, doc):
     - side effect
     '''
     color = 'white'
-    with doc.create(pl.Tabular('l | c | c', col_space='0.2cm', pos=['b'])) as table:
+    with doc.create(pl.Tabular('l | c | c | c', col_space='0.2cm', pos=['b'])) as table:
         header_row = ['Item'] + list(df.columns)
-
         table.add_hline()
         table.add_row(header_row, mapper=[bold])
         table.add_hline()
@@ -44,9 +43,12 @@ def gen_table(df, doc):
     for ind in df.index:
         color = 'white' if color == 'lightgray' else 'lightgray'
         row = _fill_row(ind, df)
-        table.add_row(row, color=color)
-        if ind == 'Non-tadables':
-            table.add_hline()
+        if ind in ['Core Inflation (avg.)', "Foods at Home",
+                   "Free Prices", "Monitored Prices", "Diffusion"]:
+            table.add_row(row, mapper=[bold])
+        else:
+            table.add_row(row)
+
     table.add_hline()
 
 
@@ -69,11 +71,11 @@ def gen_doc(file_output):
 if __name__ == '__main__':
     # monitor average
     dfinal = pd.read_excel('./data/data.xlsx', sheetname='data_source',
-                       parse_cols=[0, 1, 2], index_col=[0])
+                           parse_cols=[0, 1, 2, 3], index_col=[0])
 
     # send to publising
     doc = gen_doc('results')
     gen_table(dfinal, doc)
     doc.generate_tex()
 
-    print("table of results done!")
+#    print("table of results done!")

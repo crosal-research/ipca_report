@@ -1,5 +1,5 @@
 \standalonepreambles
 \subpreamble{latex/highlights.tex}
-\usepackage [utf8]{inputenc}\usepackage [T1]{fontenc}\usepackage {fixltx2e}\usepackage {graphicx}\usepackage {longtable}\usepackage {float}\usepackage {wrapfig}\usepackage {rotating}\usepackage [normalem]{ulem}\usepackage {amsmath}\usepackage {textcomp}\usepackage {marvosym}\usepackage {wasysym}\usepackage {amssymb}\usepackage {hyperref}\tolerance =1000\date {\today }\title {highlights}\hypersetup {pdfkeywords={},pdfsubject={},pdfcreator={Emacs 25.1.1 (Org mode 8.2.10)}}
+\usepackage [utf8]{inputenc}\usepackage [T1]{fontenc}\usepackage {graphicx}\usepackage {grffile}\usepackage {longtable}\usepackage {wrapfig}\usepackage {rotating}\usepackage [normalem]{ulem}\usepackage {amsmath}\usepackage {textcomp}\usepackage {amssymb}\usepackage {capt-of}\usepackage {hyperref}\author {user}\date {\today }\title {}\hypersetup {pdfauthor={user},pdftitle={},pdfkeywords={},pdfsubject={},pdfcreator={Emacs 24.5.1 (Org mode 9.0.5)},pdflang={English}}
 \endsubpreamble
 \endstandalonepreambles

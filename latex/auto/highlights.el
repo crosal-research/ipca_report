@@ -18,18 +18,16 @@
     "art11"
     "inputenc"
     "fontenc"
-    "fixltx2e"
     "graphicx"
+    "grffile"
     "longtable"
-    "float"
     "wrapfig"
     "rotating"
     "ulem"
     "amsmath"
     "textcomp"
-    "marvosym"
-    "wasysym"
     "amssymb"
+    "capt-of"
     "hyperref"))
  :latex)
 
