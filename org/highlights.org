@@ -1,5 +1,7 @@
 #+options: toc:nil
 #+attr_latex: :environment compactitem
--
--
--
+- Mid-term CPI came in at -0.18%mom, well below Bbg's consensus of
+  -0.10%mom, and below our forecast -0.09%mom.
+- Diffusion reached 45%, falling 8bps on monthly basis, the lowest since 2012.
+- Underlying services came at 0.38%, 11pbs higher. However, all other
+  core measures retrenched on a monthly basis.

@@ -42,7 +42,8 @@
     "babel"
     "subfig")
    (LaTeX-add-labels
-    "sec:orgf5f94fd"
-    "sec:orgec37116"))
+    "sec:org784894a"
+    "sec:org553bf0b"
+    "sec:orgea96597"))
  :latex)
 

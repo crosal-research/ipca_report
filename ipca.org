@@ -2,9 +2,11 @@
 
 #+BEGIN_EXPORT latex
 \thispagestyle{firstpagestyle}
-\IssueTitle{CPI Report}
+\IssueTitle{Mid-Term CPI Report - Lowest figure on record for July}
 \NewsAuthor{Joao Mauricio Rosal, \small\it Chief Economist, PhD}
 \NewsEmail{joao.rosal@bgcpartners.com}
+\NewsAuthor{Vinicius Alves, \small\it Economist}
+\NewsEmail{vinicius.martins@bgcpartners.com}
 \JournalIssue
     \begin{tcolorbox}[colbak=red!5!white, colframe=red!0!white]
       \NewsItem{Key Takeaways}
@@ -13,25 +15,48 @@
 \vspace{-0.5cm}
 #+END_EXPORT
 
-* CPI Report
-
-#+LATEX:\rowcolors{2}{grey!15}{white}
-#+INCLUDE: "./org/results.org"
-#+caption: Main Figures CPI Figures - June 2017
-
-
-*Comments*:
-
-
-
 #+include: "./html/salutation.html" export html
+
+#+include: "./html/highlights.html" export html
+
+* Mid-term CPI Report: July
+
+
+#+attr_latex: :width 16.0cm
+[[file:images/First_page.jpg]]
+
+
+
+*Comments*: Below consensus headline, low core figures, and low
+diffusion depicts a positive picture, thus underscoring the strong ongoing
+deflating forces. Main drivers in the month /vis à vis/ our take
+were: 1) yet again, low inflation of food at home, which fell
+0.95%mom, 2) gasoline prices, which declined 2.98%mom, and 3) apparel
+-0.11%. Perhaps, the only drawback was the (limited) surge of core
+service inflation; however, still standing at low level for historical
+standards. Going forward, we believe these figures set a downward byes
+to our July CPI's forecasts, currently at 0.13%mom, which adds to the
+ever more recurrent downward changes to gasoline prices.
+
 
 
 
 
 #+BEGIN_EXPORT latex
+ \newpage
+#+END_EXPORT
+
+
+* CPI Dashboard - July
+
+#+attr_latex: :width 15.0cm
+[[file:images/Second_Page.jpg]]
+
+
+#+BEGIN_EXPORT latex
 \newpage
 #+END_EXPORT
+
 
 * Disclaimer
 [[http://www.bgcpartners.com]] \\
